@@ -36,12 +36,19 @@ namespace Alkolator
             }
             Beverage.Volume = (int)ml;
 
-            if (!double.TryParse(tbVolt.Text, out double v))
+            if (!double.TryParse(tbAbv.Text, out double v))
             {
                 await DisplayAlert("B³¹d", "Nie jest to poprawna liczba", "OK");
                 return;
             }
             Beverage.ABV = v;
+
+            if (!int.TryParse(tbAmount.Text, out int amount))
+            {
+                await DisplayAlert("B³¹d", "Nie jest to poprawna liczba", "OK");
+                return;
+            }
+            Beverage.Amount = amount;
 
             Beverage.calculateCostEfficiency();
             Beverage.calculateEthanol();
@@ -52,6 +59,23 @@ namespace Alkolator
             // Wracamy na poprzedni¹ stronê
             await Navigation.PopAsync();
             _pageClosedTcs.TrySetResult(true);
+        }
+        private void Increment_Clicked(object sender, EventArgs e)
+        {
+            if (int.TryParse(tbAmount.Text, out int value))
+            {
+                value++;
+                tbAmount.Text = value.ToString();
+            }
+        }
+
+        private void Decrement_Clicked(object sender, EventArgs e)
+        {
+            if (int.TryParse(tbAmount.Text, out int value) && value > 1)
+            {
+                value--;
+                tbAmount.Text = value.ToString();
+            }
         }
     }
 }

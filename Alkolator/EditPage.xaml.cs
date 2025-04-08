@@ -20,7 +20,8 @@ namespace Alkolator
             tbName.Text = Beverage.Name;
             tbPrice.Text = Beverage.Price.ToString();
             tbMl.Text = Beverage.Volume.ToString();
-            tbVolt.Text = Beverage.ABV.ToString();
+            tbAbv.Text = Beverage.ABV.ToString();
+            tbAmount.Text = Beverage.Amount.ToString();
         }
 
         private async void EditBtn_Click(object sender, EventArgs e)
@@ -42,12 +43,19 @@ namespace Alkolator
             }
             Beverage.setVolume((int)ml);
 
-            if (!double.TryParse(tbVolt.Text, out double v))
+            if (!double.TryParse(tbAbv.Text, out double v))
             {
                 await DisplayAlert("B³¹d", "Nie jest to poprawna liczba", "OK");
                 return;
             }
             Beverage.setABV(v);
+
+            if (!int.TryParse(tbAmount.Text, out int amount))
+            {
+                await DisplayAlert("B³¹d", "Nie jest to poprawna liczba", "OK");
+                return;
+            }
+            Beverage.Amount = amount;
 
             Beverage.calculateCostEfficiency();
             Beverage.calculateEthanol();
@@ -57,6 +65,23 @@ namespace Alkolator
 
             await Navigation.PopAsync();
             _pageClosedTcs.TrySetResult(true);
+        }
+        private void Increment_Clicked(object sender, EventArgs e)
+        {
+            if (int.TryParse(tbAmount.Text, out int value))
+            {
+                value++;
+                tbAmount.Text = value.ToString();
+            }
+        }
+
+        private void Decrement_Clicked(object sender, EventArgs e)
+        {
+            if (int.TryParse(tbAmount.Text, out int value) && value > 1)
+            {
+                value--;
+                tbAmount.Text = value.ToString();
+            }
         }
     }
 }

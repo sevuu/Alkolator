@@ -61,12 +61,12 @@
                                     <ColumnDefinition Width="1*" />
                                 </Grid.ColumnDefinitions>
 
-                                <Label Text="{Binding Name}" Grid.Column="0"/>
-                                <Label Text="{Binding Volume}" Grid.Column="1" HorizontalTextAlignment="Center"/>
+                                <Label Text="{Binding DisplayName}" Grid.Column="0"/>
+                                <Label Text="{Binding CombinedVolume}" Grid.Column="1" HorizontalTextAlignment="Center"/>
                                 <Label Text="{Binding ABV}" Grid.Column="2" HorizontalTextAlignment="Center"/>
-                                <Label Text="{Binding Price}" Grid.Column="3" HorizontalTextAlignment="Center"/>
-                                <Label Text="{Binding Spejson, StringFormat='{0:N2}'}" Grid.Column="4" HorizontalTextAlignment="Center"/>
-                                <Label Text="{Binding Ethanol, StringFormat='{}{0:N2}'}" Grid.Column="5" HorizontalTextAlignment="Center"/>
+                                <Label Text="{Binding CombinedPrice, StringFormat='{}{0:F2}'}" Grid.Column="3" HorizontalTextAlignment="Center"/>
+                                <Label Text="{Binding Spejson, StringFormat='{0:F2}'}" Grid.Column="4" HorizontalTextAlignment="Center"/>
+                                <Label Text="{Binding Ethanol, StringFormat='{}{0:F2}'}" Grid.Column="5" HorizontalTextAlignment="Center"/>
                             </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

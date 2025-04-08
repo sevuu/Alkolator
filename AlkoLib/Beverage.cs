@@ -8,6 +8,8 @@ namespace AlkoLib
 
         public string _name;
         private double _volume, _abv, _price, _spejson, _ethanol, tmpAbv;
+        private int _amount;
+
         public Beverage()
         {
             _name = string.Empty;
@@ -17,8 +19,9 @@ namespace AlkoLib
             _spejson = 0.0;
             _ethanol = 0.0;
             tmpAbv = 0.0;
+            _amount = 1;
         }
-        public Beverage(string name, double volume, double abv, double price, double spejson, double ethanol)
+        public Beverage(string name, double volume, double abv, double price, double spejson, double ethanol, int amount)
         {
             _name = name;
             _volume = volume;
@@ -26,27 +29,30 @@ namespace AlkoLib
             _price = price;
             _spejson = spejson;
             _ethanol = ethanol;
+            _amount = amount;
         }
+        public double CombinedPrice => _price * _amount;
+        public double CombinedVolume => _volume * _amount;
 
         public void calculateCostEfficiency()
         {
             tmpAbv = _abv;
-            if (_volume != 500.0)
+            if (CombinedVolume != 500.0)
             {
-                double podzial = 500.0 / _volume;
+                double podzial = 500.0 / CombinedVolume;
                 tmpAbv = tmpAbv / podzial;
             }
-            double wspolczynnik = tmpAbv / _price;
+            double wspolczynnik = tmpAbv / CombinedPrice;
             _spejson = double.Round(wspolczynnik, 3);
         }
 
         public void calculateEthanol()
         {
             double realprocent = tmpAbv / 100;
-            double ilealko = realprocent * _volume;
-            if (_volume != 500.0)
+            double ilealko = realprocent * CombinedVolume;
+            if (CombinedVolume != 500.0)
             {                   
-                double podzial = 500.0 / _volume;
+                double podzial = 500.0 / CombinedVolume;
                 ilealko = ilealko * podzial;
             }
            _ethanol = double.Round(ilealko,3);
@@ -82,6 +88,11 @@ namespace AlkoLib
             get { return _ethanol; }
             set { _ethanol = value; }
         }
+        public int Amount
+        {
+            get { return _amount; }
+            set { _amount = value; }
+        }
 
         public void setName(string nazwa)
         {
@@ -91,6 +102,8 @@ namespace AlkoLib
         public void setVolume(double ml) {  _volume = ml; }
         public void setABV(double abv) {  _abv = abv; }
         public void setPrice(double price) {  _price = price; }
+
+        public string DisplayName => $"{Name} (x{Amount})";
 
         protected void OnPropertyChanged(string propertyName)
         {

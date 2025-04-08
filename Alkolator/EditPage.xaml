@@ -10,10 +10,24 @@
         <Entry x:Name="tbMl" Placeholder="Ilość (ml)" Keyboard="Numeric"/>
 
         <Label Text="% Alkoholu" />
-        <Entry x:Name="tbVolt" Placeholder="Procent alkoholu" Keyboard="Numeric"/>
+        <Entry x:Name="tbAbv" Placeholder="Procent alkoholu" Keyboard="Numeric"/>
 
         <Label Text="Cena" />
         <Entry x:Name="tbPrice" Placeholder="Cena" Keyboard="Numeric"/>
+        
+        <Label Text="Ilość" />
+        <Grid ColumnDefinitions="Auto,*,Auto" VerticalOptions="Center">
+            <Button Text="-" Clicked="Decrement_Clicked" Grid.Column="0" />
+            <Entry x:Name="tbAmount"
+                   Text="1"
+                   Keyboard="Numeric"
+                   HorizontalTextAlignment="Center"
+                   Grid.Column="1"
+                   WidthRequest="80"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            <Button Text="+" Clicked="Increment_Clicked" Grid.Column="2" />
+        </Grid>
 
         <Button Text="Edytuj" Clicked="EditBtn_Click"/>
     </VerticalStackLayout>
