@@ -20,4 +20,4 @@ jobs:
     - name: Install MAUI workload
       run: dotnet workload install maui
     - name: Build
-      run: dotnet build -c Release -f:net8.0-android
+      run: dotnet build Alkolator/Alkolator/Alkolator.csproj -c Release -f:net8.0-android
