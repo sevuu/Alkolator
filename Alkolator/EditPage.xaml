@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Alkolator.EditPage"
+             Title="Edytuj">
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Nazwa" />
+        <Entry x:Name="tbName" Placeholder="Nazwa trunku" />
+
+        <Label Text="ml" />
+        <Entry x:Name="tbMl" Placeholder="Ilość (ml)" Keyboard="Numeric"/>
+
+        <Label Text="% Alkoholu" />
+        <Entry x:Name="tbVolt" Placeholder="Procent alkoholu" Keyboard="Numeric"/>
+
+        <Label Text="Cena" />
+        <Entry x:Name="tbPrice" Placeholder="Cena" Keyboard="Numeric"/>
+
+        <Button Text="Edytuj" Clicked="EditBtn_Click"/>
+    </VerticalStackLayout>
+</ContentPage>

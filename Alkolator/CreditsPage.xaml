@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Alkolator.CreditsPage"
+             Title="Credits">
+
+    <Grid Padding="10">
+
+        <VerticalStackLayout Spacing="10">
+
+            <Label Text="Credits"
+                   FontAttributes="Bold"
+                   FontSize="24"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Rodi Hasan"
+                   FontSize="18" />
+
+            <Label Text="E-mail: rodihasan1@gmail.com"
+                   FontSize="18" />
+
+            <Label Text="GitHub: "
+                   FontSize="18" />
+            <Label Text="https://github.com/sevuu"
+                   TextColor="Blue"
+                   FontSize="18">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnGitHubTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label Text="Kup mi piwo: "
+                   FontSize="18" />
+            <Label Text="https://ko-fi.com/sevuu"
+                   TextColor="Blue"
+                   FontSize="18">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnPayPalTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>
