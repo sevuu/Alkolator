@@ -1,2 +1,2 @@
 # Alkolator
-![Screenshot aplikacji](Screenshot.png)
+<img src="Screenshot.png" width="30%" height="30%">
