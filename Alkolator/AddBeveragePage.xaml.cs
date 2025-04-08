@@ -10,7 +10,6 @@ namespace Alkolator
         public Task PageClosedTask => _pageClosedTcs.Task;
         private TaskCompletionSource<bool> _pageClosedTcs = new();
 
-        // Konstruktor
         public AddBeveragePage()
         {
             InitializeComponent();

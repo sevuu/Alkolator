@@ -13,16 +13,13 @@
                    FontSize="24"
                    HorizontalOptions="Center" />
 
-            <Label Text="Rodi Hasan"
-                   FontSize="18" />
-
-            <Label Text="E-mail: rodihasan1@gmail.com"
-                   FontSize="18" />
+            <Label Text="Tanio niekoniecznie znaczy gorzej (a na pewno nie słabiej)..."
+                   FontSize="25" />
 
             <Label Text="GitHub: "
                    FontSize="18" />
             <Label Text="https://github.com/sevuu"
-                   TextColor="Blue"
+                   TextColor="#9880E5"
                    FontSize="18">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnGitHubTapped" />
@@ -32,7 +29,7 @@
             <Label Text="Kup mi piwo: "
                    FontSize="18" />
             <Label Text="https://ko-fi.com/sevuu"
-                   TextColor="Blue"
+                   TextColor="#9880E5"
                    FontSize="18">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnPayPalTapped" />
