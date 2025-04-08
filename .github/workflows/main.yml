@@ -1,4 +1,4 @@
-name: .NET MAUI (Android)
+name: .NET MAUI Android Build
 
 on:
   push:
@@ -8,16 +8,29 @@ on:
 
 jobs:
   build:
-
+    name: Build Android APK
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 8.0.x
-    - name: Install MAUI workload
-      run: dotnet workload install maui
-    - name: Build
-      run: dotnet build Alkolator/Alkolator.csproj -c Release -f:net8.0-android
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Install MAUI workload
+        run: dotnet workload install maui --source https://api.nuget.org/v3/index.json
+
+      - name: Restore dependencies
+        run: dotnet restore Alkolator/Alkolator.csproj
+
+      - name: Publish Android APK
+        run: dotnet publish Alkolator/Alkolator.csproj -c Release -f:net8.0-android -p:AndroidPackageFormat=apk
+
+      - name: Upload APK as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Alkolator-APK
+          path: Alkolator/bin/Release/net8.0-android/*.apk
