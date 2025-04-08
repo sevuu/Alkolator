@@ -3,8 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\cs\\Alkolator\\AlkoLib\\Beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\alkolator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:alkolator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\creditspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:creditspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,27 +45,8 @@
       "AbsoluteMoniker": "D:0:0:{169C3B59-B82D-4167-AF94-6C020B15D6F7}|..\\AlkoLib\\AlkoLib.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolib\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\cs\\Alkolator\\AlkoLib\\Beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\alkolator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:alkolator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\creditspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:creditspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\creditspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +59,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|c:\\users\\walusia\\desktop\\rodi\\rodi szkulka\\alkolator\\alkolator\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,24 +80,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Beverage.cs",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\AlkoLib\\Beverage.cs",
-              "RelativeDocumentMoniker": "..\\AlkoLib\\Beverage.cs",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\AlkoLib\\Beverage.cs",
-              "RelativeToolTip": "..\\AlkoLib\\Beverage.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAzwCIAAAA6AAAA",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\cs\\Alkolator\\AlkoLib\\Beverage.cs",
+              "RelativeDocumentMoniker": "..\\..\\cs\\Alkolator\\AlkoLib\\Beverage.cs",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\cs\\Alkolator\\AlkoLib\\Beverage.cs",
+              "RelativeToolTip": "..\\..\\cs\\Alkolator\\AlkoLib\\Beverage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:59:27.247Z",
+              "WhenOpened": "2025-04-03T18:51:17.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "EditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\EditPage.xaml.cs",
+              "RelativeDocumentMoniker": "EditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\EditPage.xaml.cs",
+              "RelativeToolTip": "EditPage.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAIwDAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:17:58.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T15:28:54.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreditsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\CreditsPage.xaml",
+              "RelativeDocumentMoniker": "CreditsPage.xaml",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\CreditsPage.xaml",
+              "RelativeToolTip": "CreditsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T11:23:44.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T15:11:01.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -114,46 +162,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEAAAABwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T15:11:01.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddBeveragePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AddBeveragePage.xaml.cs",
-              "RelativeDocumentMoniker": "AddBeveragePage.xaml.cs",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AddBeveragePage.xaml.cs",
-              "RelativeToolTip": "AddBeveragePage.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADgAAABAAAAA",
+              "DocumentIndex": 10,
+              "Title": "Beverage.cs",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\AlkoLib\\Beverage.cs",
+              "RelativeDocumentMoniker": "..\\AlkoLib\\Beverage.cs",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\AlkoLib\\Beverage.cs",
+              "RelativeToolTip": "..\\AlkoLib\\Beverage.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAwCIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:35:31.998Z",
+              "WhenOpened": "2025-04-08T14:59:27.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Alkolator.csproj",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Alkolator.csproj",
-              "RelativeDocumentMoniker": "Alkolator.csproj",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Alkolator.csproj",
-              "RelativeToolTip": "Alkolator.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-03T15:34:39.703Z",
+              "DocumentIndex": 7,
+              "Title": "EditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\EditPage.xaml",
+              "RelativeDocumentMoniker": "EditPage.xaml",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\EditPage.xaml",
+              "RelativeToolTip": "EditPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T16:16:14.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T11:03:06.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -167,45 +215,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Beverage.cs",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\cs\\Alkolator\\AlkoLib\\Beverage.cs",
-              "RelativeDocumentMoniker": "..\\..\\cs\\Alkolator\\AlkoLib\\Beverage.cs",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\cs\\Alkolator\\AlkoLib\\Beverage.cs",
-              "RelativeToolTip": "..\\..\\cs\\Alkolator\\AlkoLib\\Beverage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Title": "Alkolator.csproj",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Alkolator.csproj",
+              "RelativeDocumentMoniker": "Alkolator.csproj",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Alkolator.csproj",
+              "RelativeToolTip": "Alkolator.csproj",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T15:34:39.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddBeveragePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AddBeveragePage.xaml.cs",
+              "RelativeDocumentMoniker": "AddBeveragePage.xaml.cs",
+              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AddBeveragePage.xaml.cs",
+              "RelativeToolTip": "AddBeveragePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwDgAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T18:51:17.203Z",
+              "WhenOpened": "2025-04-03T15:35:31.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\EditPage.xaml.cs",
-              "RelativeDocumentMoniker": "EditPage.xaml.cs",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\EditPage.xaml.cs",
-              "RelativeToolTip": "EditPage.xaml.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAIwD4AAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T16:17:58.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditPage.xaml",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\EditPage.xaml",
-              "RelativeDocumentMoniker": "EditPage.xaml",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\EditPage.xaml",
-              "RelativeToolTip": "EditPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T16:16:14.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "AddBeveragePage.xaml",
               "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AddBeveragePage.xaml",
               "RelativeDocumentMoniker": "AddBeveragePage.xaml",
@@ -218,33 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T15:28:54.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreditsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\CreditsPage.xaml",
-              "RelativeDocumentMoniker": "CreditsPage.xaml",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\CreditsPage.xaml",
-              "RelativeToolTip": "CreditsPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-08T11:23:44.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CreditsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\CreditsPage.xaml.cs",
               "RelativeDocumentMoniker": "CreditsPage.xaml.cs",
@@ -257,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Alkolator",
               "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Alkolator.csproj",
               "RelativeDocumentMoniker": "Alkolator.csproj",
@@ -269,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -282,20 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Resources\\Styles\\Colors.xaml",
-              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Resources\\Styles\\Colors.xaml",
-              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-08T11:03:06.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
@@ -308,20 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
-              "ToolTip": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
-              "ViewState": "AQIAAPcAAAAAAAAAAADgv1QBAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T16:27:34.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\walusia\\Desktop\\rodi\\rodi szkulka\\Alkolator\\Alkolator\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",

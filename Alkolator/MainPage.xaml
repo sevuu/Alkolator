@@ -26,7 +26,7 @@
                 </Picker>
 
                 <!-- Nagłówki tabeli -->
-                <Grid BackgroundColor="#9880E5" Padding="5">
+                <Grid BackgroundColor="#1D6B09" Padding="5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="2*" />
                         <ColumnDefinition Width="1*" />
