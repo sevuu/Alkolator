@@ -16,26 +16,11 @@
             <Label Text="Tanio niekoniecznie znaczy gorzej (a na pewno nie słabiej)..."
                    FontSize="25" />
 
-            <Label Text="GitHub: "
-                   FontSize="18" />
-            <Label Text="https://github.com/sevuu"
-                   TextColor="#9880E5"
-                   FontSize="18">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnGitHubTapped" />
-                </Label.GestureRecognizers>
-            </Label>
 
-            <Label Text="Kup mi piwo: "
-                   FontSize="18" />
-            <Label Text="https://ko-fi.com/sevuu"
-                   TextColor="#9880E5"
-                   FontSize="18">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnPayPalTapped" />
-                </Label.GestureRecognizers>
-            </Label>
+            <Button Text="Czym jest współczynnik spejsona?" Clicked="SpejsonTapped"/>
 
+            <Button Text="Kup mi piwo" Clicked="OnPayPalTapped"/>
+            <Button Text="GitHub" Clicked="OnGitHubTapped"/>
         </VerticalStackLayout>
 
     </Grid>
