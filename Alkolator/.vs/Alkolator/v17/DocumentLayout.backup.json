@@ -3,16 +3,33 @@
   "WorkspaceRootPath": "E:\\Builds\\Alkolator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|e:\\builds\\alkolator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169C3B59-B82D-4167-AF94-6C020B15D6F7}|..\\AlkoLib\\AlkoLib.csproj|e:\\builds\\alkolib\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169C3B59-B82D-4167-AF94-6C020B15D6F7}|..\\AlkoLib\\AlkoLib.csproj|e:\\builds\\alkolib\\save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169C3B59-B82D-4167-AF94-6C020B15D6F7}|..\\AlkoLib\\AlkoLib.csproj|e:\\builds\\alkolib\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|e:\\builds\\alkolator\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|e:\\builds\\alkolator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|e:\\builds\\alkolator\\creditspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:creditspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|e:\\builds\\alkolator\\creditspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:creditspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|e:\\builds\\alkolator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{360119CC-1751-4298-AA90-E43C0D9883FF}|Alkolator.csproj|e:\\builds\\alkolator\\addbeveragepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,24 +43,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Load.cs",
+              "DocumentMoniker": "E:\\Builds\\AlkoLib\\Load.cs",
+              "RelativeDocumentMoniker": "..\\AlkoLib\\Load.cs",
+              "ToolTip": "E:\\Builds\\AlkoLib\\Load.cs",
+              "RelativeToolTip": "..\\AlkoLib\\Load.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T11:36:31.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\Builds\\Alkolator\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "E:\\Builds\\Alkolator\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAAEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T11:23:09.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "E:\\Builds\\Alkolator\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "E:\\Builds\\Alkolator\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-04-10T11:18:13.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Beverage.cs",
+              "DocumentMoniker": "E:\\Builds\\AlkoLib\\Beverage.cs",
+              "RelativeDocumentMoniker": "..\\AlkoLib\\Beverage.cs",
+              "ToolTip": "E:\\Builds\\AlkoLib\\Beverage.cs",
+              "RelativeToolTip": "..\\AlkoLib\\Beverage.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T11:15:36.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Save.cs",
+              "DocumentMoniker": "E:\\Builds\\AlkoLib\\Save.cs",
+              "RelativeDocumentMoniker": "..\\AlkoLib\\Save.cs",
+              "ToolTip": "E:\\Builds\\AlkoLib\\Save.cs",
+              "RelativeToolTip": "..\\AlkoLib\\Save.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T11:08:46.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CreditsPage.xaml.cs",
               "DocumentMoniker": "E:\\Builds\\Alkolator\\CreditsPage.xaml.cs",
               "RelativeDocumentMoniker": "CreditsPage.xaml.cs",
               "ToolTip": "E:\\Builds\\Alkolator\\CreditsPage.xaml.cs",
               "RelativeToolTip": "CreditsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwB4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T23:36:04.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "AddBeveragePage.xaml",
               "DocumentMoniker": "E:\\Builds\\Alkolator\\AddBeveragePage.xaml",
               "RelativeDocumentMoniker": "AddBeveragePage.xaml",
@@ -51,12 +131,11 @@
               "RelativeToolTip": "AddBeveragePage.xaml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T23:22:55.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:22:55.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CreditsPage.xaml",
               "DocumentMoniker": "E:\\Builds\\Alkolator\\CreditsPage.xaml",
               "RelativeDocumentMoniker": "CreditsPage.xaml",
@@ -64,18 +143,17 @@
               "RelativeToolTip": "CreditsPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T23:22:45.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:22:45.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "E:\\Builds\\Alkolator\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "E:\\Builds\\Alkolator\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-09T23:22:40.994Z",
               "EditorCaption": ""

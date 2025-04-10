@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
@@ -30,5 +31,7 @@ namespace AlkoLib
                 return new List<Beverage>();
             }
         }
+
+        
     }
 }

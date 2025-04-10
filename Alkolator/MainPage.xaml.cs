@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using AlkoLib;
 using Microsoft.Maui.Controls;
@@ -195,5 +196,72 @@ namespace Alkolator
                 DisplayAlert("Błąd", $"Błąd ładowania danych: {ex.Message}", "OK");
             }
         }
+
+        private async void OnSaveClicked(object sender, EventArgs e)
+        {
+            string base64 = Save.ToBase64(Beverages);
+            string result = await DisplayPromptAsync(
+                "Dane do przesłania",
+                "Base64 (kliknij 'Zapisz do schowka', aby skopiować):",
+                initialValue: base64,
+                accept: "Zapisz do schowka",
+                cancel: "Anuluj"
+            );
+
+            // If the user clicks "Zapisz do schowka" (Save to Clipboard)
+            if (!string.IsNullOrWhiteSpace(result) && result == base64)
+            {
+                await Clipboard.SetTextAsync(base64);
+                await DisplayAlert("Sukces", "Zakodowane dane zostały skopiowane do schowka!", "OK");
+            }
+        }
+
+
+        private async void OnLoadClicked(object sender, EventArgs e)
+        {
+            string base64 = await DisplayPromptAsync("Wklej dane", "Wklej dane w formacie Base64+zlib:");
+
+            if (!string.IsNullOrWhiteSpace(base64))
+            {
+                try
+                {
+                    // Decode and deserialize the Base64 string
+                    var loaded = Save.FromBase64<ObservableCollection<Beverage>>(base64);
+
+                    if (loaded != null)
+                    {
+                        // Append the loaded beverages to the existing collection
+                        foreach (var beverage in loaded)
+                        {
+                            Beverages.Add(beverage);
+                        }
+
+                        // Notify the UI of changes
+                        OnPropertyChanged(nameof(Beverages));
+
+                        await DisplayAlert("Sukces", "Dane zostały załadowane i dodane do istniejącej kolekcji!", "OK");
+                    }
+                    else
+                    {
+                        await DisplayAlert("Błąd", "Nie udało się wczytać danych: Pusta kolekcja.", "OK");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    await DisplayAlert("Błąd", $"Nie udało się wczytać danych: {ex.Message}", "OK");
+                }
+            }
+            else
+            {
+                await DisplayAlert("Błąd", "Nie podano danych do wczytania.", "OK");
+            }
+
+            bestBeverage();
+            SortBeverages(SortPicker.SelectedIndex);
+            await SaveData();
+        }
+
+
     }
+
 }
