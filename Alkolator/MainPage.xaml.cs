@@ -26,7 +26,7 @@ namespace Alkolator
                 OnPropertyChanged(nameof(BestBeverageName));
             }
         }
-
+        
         public MainPage()
         {
             InitializeComponent();
@@ -62,6 +62,8 @@ namespace Alkolator
             {
                 SelectedBeverage = selected;
                 EditBtn.IsEnabled = true;
+                DetailsBtn.IsEnabled = true;
+
             }
         }
 
@@ -98,6 +100,23 @@ namespace Alkolator
             }
         }
 
+        private async void DetailsBtn_Click(object sender, EventArgs e)
+        {
+            if (dataGrid.SelectedItem is Beverage selected)
+            {
+                var detailsPage = new DetailsPage(selected);
+                await Navigation.PushAsync(detailsPage);
+                await detailsPage.PageClosedTask;
+
+                dataGrid.ItemsSource = null;
+                dataGrid.ItemsSource = Beverages;
+
+                bestBeverage();
+                SortBeverages(SortPicker.SelectedIndex);
+                await SaveData();
+            }
+        }
+
         private async void DelBtn_Click(object sender, EventArgs e)
         {
             if (dataGrid.SelectedItem is Beverage selected)
@@ -112,8 +131,8 @@ namespace Alkolator
 
         private void bestBeverage()
         {
-            var najlepszy = Beverages.OrderByDescending(b => b.Spejson).FirstOrDefault();
-            BestBeverageName = "Najopłacalniejszy: " + najlepszy?.Name;
+            var best = Beverages.OrderByDescending(b => b.Spejson).FirstOrDefault();
+            BestBeverageName = best != null ? $"Najopłacalniejszy: {best.Name}" : "Brak napojów";
         }
 
         private void SortBeverages(int selectedIndex)
@@ -139,6 +158,9 @@ namespace Alkolator
                 case 4: // Procent ↓
                     sortedList = Beverages.OrderByDescending(b => b.ABV);
                     break;
+                case 5: // Ocena ↓
+                    sortedList = Beverages.OrderByDescending(b => b.Rating);
+                    break;
                 default:
                     return;
             }
@@ -159,7 +181,7 @@ namespace Alkolator
 
 
 
-        private async Task SaveData()
+        public async Task SaveData()
         {
             try
             {
@@ -233,7 +255,10 @@ namespace Alkolator
                         // Append the loaded beverages to the existing collection
                         foreach (var beverage in loaded)
                         {
-                            Beverages.Add(beverage);
+                            if (!Beverages.Any(b => b.Name == beverage.Name && b.Price == beverage.Price))
+                            {
+                                Beverages.Add(beverage);
+                            }
                         }
 
                         // Notify the UI of changes

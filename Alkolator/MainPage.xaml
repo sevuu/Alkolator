@@ -26,6 +26,7 @@
                         <x:String>Cena (↑)</x:String>
                         <x:String>Etanol (↓)</x:String>
                         <x:String>Procent (↓)</x:String>
+                        <x:String>Ocena (↓)</x:String>
                     </Picker.Items>
                 </Picker>
 
@@ -80,15 +81,19 @@
         </ScrollView>
 
         <!-- DOLNA CZĘŚĆ – statyczna, zawsze widoczna -->
-        <Grid Grid.Row="1" ColumnSpacing="10" Padding="5">
+        <Grid Grid.Row="1" ColumnSpacing="10" RowSpacing="10" Padding="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button x:Name="AddBtn" Text="Dodaj" Clicked="AddBtn_Click" Grid.Column="0"/>
-            <Button x:Name="DelBtn" Text="Usuń" Clicked="DelBtn_Click" Grid.Column="1"/>
-            <Button x:Name="EditBtn" Text="Edytuj" Clicked="EditBtn_Click" IsEnabled="False" Grid.Column="2"/>
+            <Button x:Name="AddBtn" Text="Dodaj" Clicked="AddBtn_Click" Grid.Row="0" Grid.Column="0"/>
+            <Button x:Name="DelBtn" Text="Usuń" Clicked="DelBtn_Click" Grid.Row="0" Grid.Column="1"/>
+            <Button x:Name="EditBtn" Text="Edytuj" Clicked="EditBtn_Click" IsEnabled="False" Grid.Row="1" Grid.Column="0"/>
+            <Button x:Name="DetailsBtn" Text="Szczegóły" Clicked="DetailsBtn_Click" IsEnabled="False" Grid.Row="1" Grid.Column="1"/>
         </Grid>
 
     </Grid>
