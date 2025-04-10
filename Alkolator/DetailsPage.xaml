@@ -4,7 +4,8 @@
              Title="Szczegóły">
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
-            <Grid ColumnDefinitions="*, *"
+            <Label Text="Dane dla jednej sztuki:"/>
+            <Grid ColumnDefinitions="*, 0.7*"
                   RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto" RowSpacing="15">
                 <Label Grid.Row="0" Grid.Column="0" Text="Nazwa:" FontAttributes="Bold" />
                 <Label Grid.Row="0" Grid.Column="1" x:Name="lblName" />
@@ -18,20 +19,17 @@
                 <Label Grid.Row="3" Grid.Column="0" Text="Cena:" FontAttributes="Bold" />
                 <Label Grid.Row="3" Grid.Column="1" x:Name="lblPrice" />
 
-                <Label Grid.Row="4" Grid.Column="0" Text="Ilość:" FontAttributes="Bold" />
-                <Label Grid.Row="4" Grid.Column="1" x:Name="lblAmount" />
+                <Label Grid.Row="4" Grid.Column="0" Text="Zawartość Etanolu:" FontAttributes="Bold" />
+                <Label Grid.Row="4" Grid.Column="1" x:Name="lblEthanol" />
 
-                <Label Grid.Row="5" Grid.Column="0" Text="Zawartość Etanolu:" FontAttributes="Bold" />
-                <Label Grid.Row="5" Grid.Column="1" x:Name="lblEthanol" />
+                <Label Grid.Row="5" Grid.Column="0" Text="Opłacalność:" FontAttributes="Bold" />
+                <Label Grid.Row="5" Grid.Column="1" x:Name="lblSpejson" />
 
-                <Label Grid.Row="6" Grid.Column="0" Text="Opłacalność:" FontAttributes="Bold" />
-                <Label Grid.Row="6" Grid.Column="1" x:Name="lblSpejson" />
+                <Label Grid.Row="6" Grid.Column="0" Text="Do upicia się potrzebujesz:" FontAttributes="Bold" />
+                <Label Grid.Row="6" Grid.Column="1" x:Name="lblDrunk" />
 
-                <Label Grid.Row="7" Grid.Column="0" Text="Potrzebne do upicia się:" FontAttributes="Bold" />
-                <Label Grid.Row="7" Grid.Column="1" x:Name="lblDrunk" />
-
-                <Label Grid.Row="8" Grid.Column="0" Text="Ocena (0-10):" FontAttributes="Bold" />
-                <Label Grid.Row="8" Grid.Column="1" x:Name="lblRating" HorizontalOptions="Start" />
+                <Label Grid.Row="7" Grid.Column="0" Text="Ocena (0-10):" FontAttributes="Bold" />
+                <Label Grid.Row="7" Grid.Column="1" x:Name="lblRating" HorizontalOptions="Start" />
             </Grid>
 
             <Slider x:Name="ratingSlider" Minimum="0" Maximum="10" ValueChanged="OnRatingChanged" />

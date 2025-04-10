@@ -5,8 +5,8 @@
              Title="Alkolator">
     
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Save" Clicked="OnSaveClicked"/>
-        <ToolbarItem Text="Load" Clicked="OnLoadClicked"/>
+        <ToolbarItem Text="Zapisz" Clicked="OnSaveClicked"/>
+        <ToolbarItem Text="Wczytaj" Clicked="OnLoadClicked"/>
     </ContentPage.ToolbarItems>
     
     <Grid RowDefinitions="*, Auto" Padding="10">
